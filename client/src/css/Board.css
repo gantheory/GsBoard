@@ -1,0 +1,33 @@
+.board {
+  font-family: 'Bitter', serif;
+}
+
+.boardTitle {
+  font-size: 100px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: rgba( 0, 0, 0, 0.5 );
+}
+
+.usernameInput {
+  text-align: center;
+}
+
+.commentInput {
+  text-align: center;
+}
+
+.postButton {
+  text-align: center;
+}
+
+.replyList {
+  width: 50%;
+  background-color: rgba( 100, 100, 100, 0.5);
+  float: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 10px;
+  word-break: normal;
+  padding-bottom: 10px;
+}

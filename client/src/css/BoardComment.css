@@ -1,0 +1,15 @@
+.onePost {
+  padding-left: 5px;
+  padding-top: 1px;
+}
+
+.username {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30%;
+}
+
+.time {
+  font-size: 10px;
+  color: #000000;
+}
