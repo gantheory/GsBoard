@@ -7,10 +7,10 @@ class Reply extends Component {
       <div className="oneReply">
         <p className="reply"
         >
-          Posted by {this.props.reply.reply}
+          {this.props.reply.reply}
         </p>
         <p className="username">
-          {this.props.reply.username}
+          Posted by {this.props.reply.username}
         </p>
         <p className="time">
           {this.props.reply.time}
