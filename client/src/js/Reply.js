@@ -7,7 +7,7 @@ class Reply extends Component {
       <div className="oneReply">
         <p className="reply"
         >
-        {this.props.reply.reply}
+          Posted by {this.props.reply.reply}
         </p>
         <p className="username">
           {this.props.reply.username}

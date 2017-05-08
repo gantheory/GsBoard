@@ -9,6 +9,11 @@ app.use(bodyParser.json());
 
 let data = [];
 
+app.use(express.static(`${__dirname}/client/build/`));
+function sendHomepage(req, res) {
+  res.sendFile(__dirname + '/client/public/index.html');
+}
+
 function getComments(req, res) {
   res.json(data);
 }
@@ -32,6 +37,7 @@ function postReply(req, res) {
   });
 }
 
+app.get('/', sendHomepage);
 app.get('/api/comments', getComments);
 app.post('/api/comments', postComment);
 app.post('/api/reply', postReply);
