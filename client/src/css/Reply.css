@@ -1,4 +1,8 @@
 .oneReply {
-  padding-left: 10px;
   padding-top: 1px;
+  padding-right: 25px;
+}
+
+.reply {
+  font-size: 25px;
 }

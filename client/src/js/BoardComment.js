@@ -69,14 +69,14 @@ class BoardComment extends Component {
     return (
       <div>
         <div className="onePost">
+          <p className="comment">
+            {this.props.post.comment}
+          </p>
           <p className="username">
-            {this.props.post.username}
+            Posted by {this.props.post.username}
           </p>
           <p className="time">
             {this.props.post.time}
-          </p>
-          <p className="comment">
-            {this.props.post.comment}
           </p>
           <RaisedButton className="replyButton"
             label="Reply"
