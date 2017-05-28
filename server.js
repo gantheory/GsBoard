@@ -10,6 +10,7 @@ app.use(bodyParser.json());
 let data = [];
 
 app.use(express.static(`${__dirname}/client/build/`));
+
 function sendHomepage(req, res) {
   res.sendFile(__dirname + '/client/public/index.html');
 }
